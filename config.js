@@ -20,6 +20,7 @@ System.config({
     "q": "npm:q@1.4.1",
     "ramda": "npm:ramda@0.19.1",
     "react": "npm:react@0.14.6",
+    "redux": "npm:redux@3.0.5",
     "rx": "npm:rx@4.0.7",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -145,6 +146,9 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
+    },
+    "npm:redux@3.0.5": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:rx@4.0.7": {
       "process": "github:jspm/nodelibs-process@0.1.2"
