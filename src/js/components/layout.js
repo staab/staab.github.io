@@ -6,7 +6,7 @@ import {boxes, BoxContainer} from './boxes';
 let Background = React.createClass({
     displayName: "Background",
     render() {
-        return <div className="l-background"></div>
+        return <div className="l-background" id="main-background"></div>
     }
 });
 

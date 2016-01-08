@@ -183,5 +183,9 @@
     "process": "github:jspm/nodelibs-process@^0.1.0",
     "buffer": "github:jspm/nodelibs-buffer@^0.1.0"
   },
-  "npm:reflex-grid@1.0.8": {}
+  "npm:reflex-grid@1.0.8": {},
+  "npm:three.js@0.73.0": {
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  }
 }

@@ -26,6 +26,7 @@ System.config({
     "redux": "npm:redux@3.0.5",
     "reflex-grid": "npm:reflex-grid@1.0.8",
     "rx": "npm:rx@4.0.7",
+    "three.js": "npm:three.js@0.73.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -183,6 +184,10 @@ System.config({
     },
     "npm:string_decoder@0.10.31": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
+    },
+    "npm:three.js@0.73.0": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:through@2.3.8": {
       "process": "github:jspm/nodelibs-process@0.1.2",
