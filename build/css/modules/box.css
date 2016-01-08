@@ -1,16 +1,11 @@
-@import url(/jspm_packages/npm/purecss@0.6.0/build/grids-responsive.css);
 .box-container {
   position: relative;
   float: right;
-  width: 80%;
-  display: flex;
-  flex-wrap: wrap;
+  width: 70%;
   justify-content: center;
   border-left: 2px solid black;
   background-color: rgba(200, 200, 200, 0.7); }
   .box-container .box-item {
-    height: 150px;
-    width: 26%;
+    height: 200px;
     padding: 10px;
-    margin: 10px;
     border: 1px solid black; }

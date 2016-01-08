@@ -182,5 +182,6 @@
     "envify": "npm:envify@^3.0.0",
     "process": "github:jspm/nodelibs-process@^0.1.0",
     "buffer": "github:jspm/nodelibs-buffer@^0.1.0"
-  }
+  },
+  "npm:reflex-grid@1.0.8": {}
 }

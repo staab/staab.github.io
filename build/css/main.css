@@ -1,18 +1,35 @@
 @import url(/jspm_packages/npm/purecss@0.6.0/build/base.css);
-@import url(/jspm_packages/npm/purecss@0.6.0/build/grids-responsive.css);
-@import url(/jspm_packages/npm/purecss@0.6.0/build/grids-responsive.css);
+@import url(/jspm_packages/npm/reflex-grid@1.0.8/css/reflex.css);
 .box-container {
   position: relative;
   float: right;
-  width: 80%;
-  display: flex;
-  flex-wrap: wrap;
+  width: 70%;
   justify-content: center;
   border-left: 2px solid black;
   background-color: rgba(200, 200, 200, 0.7); }
   .box-container .box-item {
-    height: 150px;
-    width: 26%;
+    height: 200px;
     padding: 10px;
-    margin: 10px;
     border: 1px solid black; }
+
+.l-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fac695+0,f5ab66+47,ef8d31+100;Orange+3D+%232 */
+  background: #fac695;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fac695 0%, #f5ab66 47%, #ef8d31 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fac695 0%, #f5ab66 47%, #ef8d31 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fac695 0%, #f5ab66 47%, #ef8d31 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac695', endColorstr='#ef8d31',GradientType=0 );
+  /* IE6-9 */ }
+
+.l-content {
+  position: absolute; }

@@ -4,7 +4,7 @@ import * as ReactDOM from 'react-dom';
 let BoxContainer = React.createClass({
     displayName: "BoxContainer",
     render() {
-        return <div className="box-container">{this.props.children}</div>;
+        return <div className="box-container grid">{this.props.children}</div>;
     }
 });
 
@@ -12,8 +12,10 @@ let Box = React.createClass({
     displayName: "Box",
     render() {
         return (
-            <div className="box-item">
-                {this.props.children}
+            <div className="grid__col-xs-6 grid__col-md-4">
+                <div className="box-item">
+                    {this.props.children}
+                </div>
             </div>
         );
     }
@@ -43,6 +45,19 @@ let Contact = React.createClass({
     }
 });
 
-let boxes = [Name, Contact, Contact, Contact, Contact, Contact, Contact, Contact, Contact];
+let boxes = [
+    Name,
+    Contact,
+    Contact,
+    Contact,
+    Contact,
+    Contact,
+    Contact,
+    Contact,
+    Contact,
+    Contact,
+    Contact,
+    Contact
+];
 
 export {BoxContainer, boxes};

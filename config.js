@@ -24,6 +24,7 @@ System.config({
     "react-dom": "npm:react-dom@0.14.6",
     "react-pure": "npm:react-pure@0.3.1",
     "redux": "npm:redux@3.0.5",
+    "reflex-grid": "npm:reflex-grid@1.0.8",
     "rx": "npm:rx@4.0.7",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"

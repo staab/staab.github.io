@@ -6,7 +6,7 @@ import {boxes, BoxContainer} from './boxes';
 let Background = React.createClass({
     displayName: "Background",
     render() {
-        return <div></div>
+        return <div className="l-background"></div>
     }
 });
 
@@ -18,7 +18,7 @@ let App = React.createClass({
         ));
 
         return (
-            <div>
+            <div className="l-content">
                 <Background />
                 <BoxContainer>
                     {contentChildren}
