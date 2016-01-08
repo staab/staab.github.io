@@ -1,16 +1,15 @@
-@import url(/jspm_packages/npm/purecss@0.6.0/build/pure.css);
+@import url(/jspm_packages/npm/purecss@0.6.0/build/base.css);
+@import url(/jspm_packages/npm/purecss@0.6.0/build/grids-responsive.css);
+@import url(/jspm_packages/npm/purecss@0.6.0/build/grids-responsive.css);
 .box-container {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
   float: right;
-  width: 1026px;
+  width: 80%;
   border-left: 2px solid black;
   background-color: rgba(200, 200, 200, 0.7); }
 
 .box-item {
-  width: 29%;
-  height: 200px;
-  padding: 0.4%;
-  margin: 0.5%;
+  height: 150px;
+  padding: 10px;
+  margin: 10px;
   border: 1px solid black; }
