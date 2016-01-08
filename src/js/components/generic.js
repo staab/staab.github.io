@@ -13,10 +13,16 @@ let Background = React.createClass({
 let App = React.createClass({
     displayName: "App",
     render() {
+        let contentChildren = boxes.map((Box, index) => (
+            <Box key={index} />
+        ));
+
         return (
             <div>
                 <Background />
-                {boxes.map((Box, index) => <Box key={index} />)}
+                <div className="box-container">
+                    {contentChildren}
+                </div>
             </div>
         );
     }
