@@ -20,6 +20,7 @@ System.config({
     "q": "npm:q@1.4.1",
     "ramda": "npm:ramda@0.19.1",
     "react": "npm:react@0.14.6",
+    "react-dom": "npm:react-dom@0.14.6",
     "redux": "npm:redux@3.0.5",
     "rx": "npm:rx@4.0.7",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -131,6 +132,9 @@ System.config({
     },
     "npm:ramda@0.19.1": {
       "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:react-dom@0.14.6": {
+      "react": "npm:react@0.14.6"
     },
     "npm:react@0.14.6": {
       "envify": "npm:envify@3.4.0",
