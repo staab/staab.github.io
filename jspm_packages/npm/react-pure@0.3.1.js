@@ -1,0 +1,1 @@
+module.exports = require("npm:react-pure@0.3.1/lib/index.js");

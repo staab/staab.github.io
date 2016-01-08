@@ -1,5 +1,6 @@
-@import url(../../node_modules/css-reset-and-normalize-sass/css/reset-and-normalize.css);
+@import url(/jspm_packages/npm/purecss@0.6.0/build/pure.css);
 .box-container {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   float: right;
@@ -8,14 +9,8 @@
   background-color: rgba(200, 200, 200, 0.7); }
 
 .box-item {
-  width: 300px;
+  width: 29%;
   height: 200px;
-  padding: 10px;
-  margin: 10px;
+  padding: 0.4%;
+  margin: 0.5%;
   border: 1px solid black; }
-
-body, html {
-  margin: 100;
-  padding: 0;
-  position: relative;
-  height: 100%; }

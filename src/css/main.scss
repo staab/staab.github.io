@@ -1,9 +1,4 @@
-@import '../../node_modules/css-reset-and-normalize-sass/css/reset-and-normalize.css';
+@import '/jspm_packages/npm/purecss@0.6.0/build/pure.css';
 @import './modules/box.scss';
 
-body, html {
-    margin: 100;
-    padding: 0;
-    position: relative;
-    height: 100%;
-}
+

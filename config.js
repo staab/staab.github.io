@@ -17,10 +17,12 @@ System.config({
     "babel": "npm:babel-core@5.8.34",
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "core-js": "npm:core-js@1.2.6",
+    "purecss": "npm:purecss@0.6.0",
     "q": "npm:q@1.4.1",
     "ramda": "npm:ramda@0.19.1",
     "react": "npm:react@0.14.6",
     "react-dom": "npm:react-dom@0.14.6",
+    "react-pure": "npm:react-pure@0.3.1",
     "redux": "npm:redux@3.0.5",
     "rx": "npm:rx@4.0.7",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -135,6 +137,16 @@ System.config({
     },
     "npm:react-dom@0.14.6": {
       "react": "npm:react@0.14.6"
+    },
+    "npm:react-pure@0.3.1": {
+      "babel-runtime": "npm:babel-runtime@5.8.34",
+      "classnames": "npm:classnames@2.2.3",
+      "react": "npm:react@0.13.3"
+    },
+    "npm:react@0.13.3": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "envify": "npm:envify@3.4.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:react@0.14.6": {
       "envify": "npm:envify@3.4.0",

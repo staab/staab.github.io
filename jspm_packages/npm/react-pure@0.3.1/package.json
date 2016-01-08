@@ -1,0 +1,50 @@
+{
+  "name": "react-pure",
+  "version": "0.3.1",
+  "description": "React components using Pure CSS",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -Rf ./lib",
+    "compile": "npm run clean && babel --out-dir lib src",
+    "watch": "babel --watch --out-dir lib src",
+    "test": "jest --coverage ./lib",
+    "start": "npm run compile && npm test",
+    "onchange": "onchange 'lib/*.js' 'lib/**/*.js' -- jest ./lib",
+    "dev": "npm run watch & npm run onchange",
+    "prepublish": "npm ls && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hailocab/react-pure.git"
+  },
+  "keywords": [
+    "react-component",
+    "pure",
+    "css"
+  ],
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/hailocab/react-pure/issues"
+  },
+  "homepage": "https://github.com/hailocab/react-pure",
+  "dependencies": {
+    "babel-runtime": "^5.4.7",
+    "classnames": "^2.1.2"
+  },
+  "peerDependencies": {
+    "react": "^0.13.0"
+  },
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "jest-cli": "^0.4.5",
+    "onchange": "^1.1.0",
+    "react": "^0.13.0"
+  },
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/babel-runtime",
+      "<rootDir>/node_modules/classnames",
+      "<rootDir>/node_modules/react"
+    ]
+  }
+}

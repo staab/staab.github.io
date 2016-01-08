@@ -170,5 +170,17 @@
   },
   "npm:react-dom@0.14.6": {
     "react": "npm:react@^0.14.6"
+  },
+  "npm:react-pure@0.3.1": {
+    "babel-runtime": "npm:babel-runtime@^5.4.7",
+    "classnames": "npm:classnames@^2.1.2",
+    "react": "npm:react@^0.13.0"
+  },
+  "npm:purecss@0.6.0": {},
+  "npm:classnames@2.2.3": {},
+  "npm:react@0.13.3": {
+    "envify": "npm:envify@^3.0.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0"
   }
 }

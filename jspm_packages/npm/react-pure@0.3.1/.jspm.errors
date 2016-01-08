@@ -1,0 +1,247 @@
+MultipleErrors: /home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:1:1: Unexpected reserved word import
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:1:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:1:40: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:1:45: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:2:1: Unexpected reserved word import
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:2:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:2:19: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:2:24: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:4:1: Unexpected reserved word export
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:4:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:4:8: Unexpected reserved word default
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:4:16: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:5:22: Unexpected token =
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:6:26: Unexpected token .
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:6:27: Unexpected token bool
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:6:31: Unexpected token ,
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:8:16: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:8:16: Unexpected token :
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:8:18: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:11:25: Unexpected token =
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:12:17: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:13:19: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:14:18: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:15:6: Unexpected token ;
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:17:5: Unexpected token render
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:17:11: Unexpected token )
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:17:14: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:18:64: Unexpected token props
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:18:70: Unexpected token }
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:18:84: Unexpected token ;
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:18:15: destructuring must have an initializer
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:18:15: const variables must have an initializer
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:27:15: Unexpected token <
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:27:16: Unexpected token a
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:27:30: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:27:46: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:27:47: Unexpected token ...
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:27:50: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:27:57: Expected '/' in regular expression literal
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:28:13: Unexpected token :
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:28:23: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:28:39: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:28:59: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:28:60: Unexpected token ...
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:28:63: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:28:70: Expected '/' in regular expression literal
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:13:19: Duplicate parameter name false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:14:18: Duplicate parameter name false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Button.js:31:1: Unexpected token End of File
+
+MultipleErrors: /home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:1:1: Unexpected reserved word import
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:1:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:1:40: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:1:45: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:2:1: Unexpected reserved word import
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:2:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:2:19: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:2:24: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:6:1: Unexpected reserved word export
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:6:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:6:8: Unexpected reserved word default
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:6:16: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:7:22: Unexpected token =
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:8:24: Unexpected token .
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:8:25: Unexpected token string
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:8:31: Unexpected token ,
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:10:11: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:10:11: Unexpected token :
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:10:13: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:11:11: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:11:11: Unexpected token :
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:11:13: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:12:11: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:12:11: Unexpected token :
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:12:13: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:15:25: Unexpected token =
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:16:15: Unexpected token '1'
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:17:6: Unexpected token ;
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:19:5: Unexpected token render
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:19:11: Unexpected token )
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:19:14: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:20:53: Unexpected token props
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:20:59: Unexpected token }
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:20:73: Unexpected token ;
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:20:15: destructuring must have an initializer
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:20:15: const variables must have an initializer
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:30:16: Unexpected token <
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:30:17: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:30:21: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:30:37: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:30:38: Unexpected token ...
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:30:41: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:30:48: Expected '/' in regular expression literal
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Cell.js:33:1: Unexpected token End of File
+
+MultipleErrors: /home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:1:1: Unexpected reserved word import
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:1:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:1:40: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:1:45: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:2:1: Unexpected reserved word import
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:2:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:2:19: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:2:24: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:4:1: Unexpected reserved word export
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:4:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:4:8: Unexpected reserved word default
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:4:16: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:5:22: Unexpected token =
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:6:30: Unexpected token .
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:6:31: Unexpected token bool
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:6:35: Unexpected token ,
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:10:25: Unexpected token =
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:11:21: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:12:21: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:13:6: Unexpected token ;
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:15:5: Unexpected token render
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:15:11: Unexpected token )
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:15:14: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:16:55: Unexpected token props
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:16:61: Unexpected token }
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:16:75: Unexpected token ;
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:16:15: destructuring must have an initializer
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:16:15: const variables must have an initializer
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:23:16: Unexpected token <
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:23:17: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:23:21: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:23:37: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:23:38: Unexpected token ...
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:23:41: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:23:48: Expected '/' in regular expression literal
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:12:21: Duplicate parameter name false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Menu.js:26:1: Unexpected token End of File
+
+MultipleErrors: /home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:1:1: Unexpected reserved word import
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:1:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:1:40: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:1:45: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:2:1: Unexpected reserved word import
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:2:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:2:19: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:2:24: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:4:1: Unexpected reserved word export
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:4:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:4:8: Unexpected reserved word default
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:4:16: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:5:22: Unexpected token =
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:6:26: Unexpected token .
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:6:27: Unexpected token PropTypes
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:6:36: Unexpected token .
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:7:17: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:7:17: Unexpected token :
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:7:19: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:8:20: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:8:20: Unexpected token :
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:8:22: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:9:17: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:9:17: Unexpected token :
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:9:19: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:12:25: Unexpected token =
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:13:21: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:14:19: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:15:22: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:16:19: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:17:6: Unexpected token ;
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:19:5: Unexpected token render
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:19:11: Unexpected token )
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:19:14: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:20:76: Unexpected token props
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:20:82: Unexpected token }
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:20:96: Unexpected token ;
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:20:15: destructuring must have an initializer
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:20:15: const variables must have an initializer
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:29:16: Unexpected token <
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:29:17: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:29:20: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:29:36: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:29:37: Unexpected token ...
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:29:40: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:29:47: Expected '/' in regular expression literal
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:14:19: Duplicate parameter name false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:15:22: Duplicate parameter name false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:16:19: Duplicate parameter name false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/MenuItem.js:32:1: Unexpected token End of File
+
+MultipleErrors: /home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:1:1: Unexpected reserved word import
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:1:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:1:40: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:1:45: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:2:1: Unexpected reserved word import
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:2:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:2:19: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:2:24: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:4:1: Unexpected reserved word export
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:4:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:4:8: Unexpected reserved word default
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:4:16: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:5:22: Unexpected token =
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:6:28: Unexpected token .
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:6:29: Unexpected token bool
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:6:33: Unexpected token ,
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:8:16: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:8:16: Unexpected token :
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:8:18: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:11:25: Unexpected token =
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:12:19: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:13:21: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:14:18: Unexpected token false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:15:6: Unexpected token ;
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:17:5: Unexpected token render
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:17:11: Unexpected token )
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:17:14: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:18:62: Unexpected token props
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:18:68: Unexpected token }
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:18:82: Unexpected token ;
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:18:15: destructuring must have an initializer
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:18:15: const variables must have an initializer
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:26:16: Unexpected token <
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:26:17: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:26:23: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:26:39: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:26:40: Unexpected token ...
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:26:43: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:26:50: Expected '/' in regular expression literal
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:13:21: Duplicate parameter name false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:14:18: Duplicate parameter name false
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/Table.js:29:1: Unexpected token End of File
+
+MultipleErrors: /home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:1:1: Unexpected reserved word export
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:1:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:1:15: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:1:20: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:2:1: Unexpected reserved word export
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:2:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:2:13: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:2:18: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:3:1: Unexpected reserved word export
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:3:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:3:13: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:3:18: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:4:1: Unexpected reserved word export
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:4:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:4:17: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:4:22: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:5:1: Unexpected reserved word export
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:5:8: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:5:14: Semi-colon expected
+/home/jstaab/.jspm/packages/npm/react-pure@0.3.1/src/index.js:5:19: Semi-colon expected
