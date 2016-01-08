@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import {boxes} from './boxes';
+import {boxes, BoxContainer} from './boxes';
 
 let Background = React.createClass({
     displayName: "Background",
@@ -20,9 +20,9 @@ let App = React.createClass({
         return (
             <div>
                 <Background />
-                <div className="box-container">
+                <BoxContainer>
                     {contentChildren}
-                </div>
+                </BoxContainer>
             </div>
         );
     }

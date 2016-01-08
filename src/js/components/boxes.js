@@ -1,11 +1,18 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
+let BoxContainer = React.createClass({
+    displayName: "BoxContainer",
+    render() {
+        return <div className="box-container">{this.props.children}</div>;
+    }
+});
+
 let Box = React.createClass({
     displayName: "Box",
     render() {
         return (
-            <div className="box-item pure-u-sm-1-3 pure-u-md-1-5">
+            <div className="box-item">
                 {this.props.children}
             </div>
         );
@@ -36,6 +43,6 @@ let Contact = React.createClass({
     }
 });
 
-let boxes = [Name, Contact, Contact, Contact, Contact, Contact, Contact, Contact, Contact, Contact];
+let boxes = [Name, Contact, Contact, Contact, Contact, Contact, Contact, Contact, Contact];
 
-export {boxes};
+export {BoxContainer, boxes};
