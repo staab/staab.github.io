@@ -1,0 +1,1 @@
+module.exports = require("npm:compass-mixins@0.12.7/lib/_compass.scss");

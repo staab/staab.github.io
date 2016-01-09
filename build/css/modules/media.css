@@ -1,0 +1,9 @@
+.media {
+  margin: 10px; }
+  .media .media-body {
+    overflow: hidden; }
+  .media .img {
+    float: left;
+    margin-right: 10px; }
+    .media .img img {
+      display: block; }

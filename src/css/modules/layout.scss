@@ -1,0 +1,12 @@
+.l-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30%;
+    z-index: z("background");
+}
+
+.l-content {
+    position: absolute;
+}

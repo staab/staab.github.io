@@ -3,9 +3,18 @@ $z-layers: (
 );
 
 @function z($layer) {
-  @if not map-has-key($z-layers, $layer) {
-    @warn "No layer found for `#{$layer}` in $z-layers map. Property omitted.";
-  }
+    @if not map-has-key($z-layers, $layer) {
+        @warn "No layer found for `#{$layer}` in $z-layers map. Property omitted.";
+    }
 
-  @return map-get($z-layers, $layer);
+    @return map-get($z-layers, $layer);
+}
+
+@mixin bg-gradient($from, $start, $end) {
+    background-color: $start;
+    background-image: -webkit-linear-gradient($from, $start, $end);
+    background-image: -moz-linear-gradient($from, $start, $end);
+    background-image: -ms-linear-gradient($from, $start, $end);
+    background-image: -o-linear-gradient($from, $start, $end);
+    background-image: linear-gradient($from, $start, $end);
 }

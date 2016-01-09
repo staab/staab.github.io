@@ -1,17 +1,28 @@
 @import '/jspm_packages/npm/purecss@0.6.0/build/base.css';
 @import '/jspm_packages/npm/reflex-grid@1.0.8/css/reflex.css';
-@import './modules/box.scss';
-@import './utils.scss';
+@import '/jspm_packages/npm/font-awesome@4.5.0/css/font-awesome.css';
+@import './modules/layout';
+@import './modules/box';
+@import './modules/dial';
+@import './modules/atoms';
+@import './variables';
+@import './utils';
 
-.l-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: z("background");
+h1 {
+    margin: 0.3em 0 0.2em;
 }
 
-.l-content {
-    position: absolute;
+a {
+    color: $primary;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover {
+        color: $primary-highlight;
+    }
+}
+
+body {
+    text-shadow: 2px 2px 1px #ccc;
+    color: #111;
 }

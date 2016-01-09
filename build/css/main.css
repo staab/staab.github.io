@@ -1,29 +1,140 @@
 @import url(/jspm_packages/npm/purecss@0.6.0/build/base.css);
 @import url(/jspm_packages/npm/reflex-grid@1.0.8/css/reflex.css);
-.box-container {
-  position: relative;
-  float: right;
-  width: 70%;
-  justify-content: center;
-  border-left: 2px solid black;
-  background-color: white;
-  box-shadow: 0px 0px 15px black; }
-  .box-container .box-item {
-    height: 200px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 2px;
-    box-shadow: 2px 2px 5px #333; }
-    .box-container .box-item:hover {
-      box-shadow: 2px 2px 6px #333; }
-
+@import url(/jspm_packages/npm/font-awesome@4.5.0/css/font-awesome.css);
 .l-background {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%;
-  z-index: -1; }
+  width: 30%;
+  z-index: z("background"); }
 
 .l-content {
   position: absolute; }
+
+.box-container {
+  position: relative;
+  float: right;
+  width: 70%;
+  justify-content: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px black; }
+  .box-container .box-item {
+    height: 200px;
+    padding: 10px; }
+
+.dial {
+  min-height: 11em;
+  width: 11em;
+  margin: 0 auto;
+  -webkit-border-radius: 5.5em;
+  -moz-border-radius: 5.5em;
+  -ms-border-radius: 5.5em;
+  -o-border-radius: 5.5em;
+  border-radius: 5.5em; }
+  .dial .dial__chamfer {
+    min-height: 9em;
+    width: 9em;
+    position: relative;
+    top: 1em;
+    left: 1em;
+    -webkit-border-radius: 4.5em;
+    -moz-border-radius: 4.5em;
+    -ms-border-radius: 4.5em;
+    -o-border-radius: 4.5em;
+    border-radius: 4.5em;
+    background-color: #e6e6e6;
+    background-image: -webkit-linear-gradient(top, #e6e6e6, #cccccc);
+    background-image: -moz-linear-gradient(top, #e6e6e6, #cccccc);
+    background-image: -ms-linear-gradient(top, #e6e6e6, #cccccc);
+    background-image: -o-linear-gradient(top, #e6e6e6, #cccccc);
+    background-image: linear-gradient(top, #e6e6e6, #cccccc);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), 0 6px 10px rgba(0, 0, 0, 0.3), inset 0 -3px 3px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), 0 6px 10px rgba(0, 0, 0, 0.3), inset 0 -3px 3px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), 0 6px 10px rgba(0, 0, 0, 0.3), inset 0 -3px 3px rgba(255, 255, 255, 0.2); }
+  .dial .dial__face {
+    cursor: move;
+    max-width: 8em;
+    min-height: 8em;
+    position: relative;
+    top: 0.5em;
+    left: 0.5em;
+    background-color: #e6e6e6;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    -ms-border-radius: 4em;
+    -o-border-radius: 4em;
+    border-radius: 4em;
+    -webkit-box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.4); }
+  .dial .dial__arrow {
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 1.35em;
+    left: 1.35em;
+    border-top: 0.5em solid gray;
+    border-right: 0.5em solid transparent; }
+  .dial .dial__inner {
+    min-height: 1.5em;
+    max-width: 1.5em;
+    display: block;
+    z-index: 2;
+    position: relative;
+    top: 1em;
+    left: 1.5em;
+    background-color: #cccccc;
+    background-image: -webkit-linear-gradient(top, #cccccc, #f2f2f2);
+    background-image: -moz-linear-gradient(top, #cccccc, #f2f2f2);
+    background-image: -ms-linear-gradient(top, #cccccc, #f2f2f2);
+    background-image: -o-linear-gradient(top, #cccccc, #f2f2f2);
+    background-image: linear-gradient(top, #cccccc, #f2f2f2);
+    -webkit-border-radius: 0.75em;
+    -moz-border-radius: 0.75em;
+    -ms-border-radius: 0.75em;
+    -o-border-radius: 0.75em;
+    border-radius: 0.75em; }
+  .dial .dial__text {
+    text-align: center;
+    position: relative;
+    top: -5.5em;
+    transform: translateY(-50%);
+    font-size: 0.7em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #555; }
+
+.circle {
+  border-radius: 50%; }
+
+.align-cols {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.align-rows {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.text-center {
+  text-align: center; }
+
+.full-height {
+  height: 100%; }
+
+h1 {
+  margin: 0.3em 0 0.2em; }
+
+a {
+  color: #ee0000;
+  text-decoration: none;
+  transition: color 0.3s; }
+  a:hover {
+    color: #ff7777; }
+
+body {
+  text-shadow: 2px 2px 1px #ccc;
+  color: #111; }

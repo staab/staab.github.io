@@ -16,7 +16,9 @@ System.config({
   map: {
     "babel": "npm:babel-core@5.8.34",
     "babel-runtime": "npm:babel-runtime@5.8.34",
+    "compass-mixins": "npm:compass-mixins@0.12.7",
     "core-js": "npm:core-js@1.2.6",
+    "font-awesome": "npm:font-awesome@4.5.0",
     "purecss": "npm:purecss@0.6.0",
     "q": "npm:q@1.4.1",
     "ramda": "npm:ramda@0.19.1",
@@ -103,6 +105,9 @@ System.config({
       "promise": "npm:promise@7.1.1",
       "ua-parser-js": "npm:ua-parser-js@0.7.10",
       "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
+    },
+    "npm:font-awesome@4.5.0": {
+      "css": "github:systemjs/plugin-css@0.1.20"
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"

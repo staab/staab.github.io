@@ -13,6 +13,6 @@ import {createBackground} from './background';
     createBackground(document.getElementById('main-background'), {
         maxScale: 2,
         scaleSpeed: 0.005,
-        cubeSize: 70
+        cubeSize: 90
     });
 }());
