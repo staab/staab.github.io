@@ -1,12 +1,6 @@
 .circle {
   border-radius: 50%; }
 
-.align-cols {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap; }
-
 .align-rows {
   display: flex;
   align-items: center;

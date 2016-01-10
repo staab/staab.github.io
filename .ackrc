@@ -1,6 +1,7 @@
 --ignore-dir=jspm_packages
 --ignore-dir=node_modules
 --ignore-dir=.git
+--ignore-dir=build
 --ignore-file=ext:log
 --ignore-file=ext:sql
 --ignore-file=ext:svg

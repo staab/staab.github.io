@@ -15,5 +15,5 @@ gulp sass:watch
 To build for production:
 
 ```
-jspm bundle src/js/main build.js
+jspm bundle -m src/js/main build/main.js
 ```
