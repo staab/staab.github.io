@@ -10,9 +10,5 @@ import {createBackground} from './background';
       document.getElementById('wrapper')
     );
 
-    createBackground(document.getElementById('main-background'), {
-        maxScale: 2,
-        scaleSpeed: 0.005,
-        cubeSize: 90
-    });
+    createBackground(document.getElementById('main-background'), 90);
 }());

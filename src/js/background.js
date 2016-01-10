@@ -1,18 +1,22 @@
 import * as THREE from 'three.js';
 
+import {store} from './state';
+
 function getElementDimensions(element) {
     return [element.offsetWidth, element.offsetHeight];
 }
 
-function createBackground(element, {cubeSize=50, minScale=1, maxScale=5, scaleSpeed=0.02}={}) {
+function createBackground(element, cubeSize=50) {
     let [width, height] = getElementDimensions(element);
     let scopeFactor = 1000;
     let scene = new THREE.Scene();
     let renderer = new THREE.WebGLRenderer({alpha: true});
-    let camera = new THREE.OrthographicCamera(width / -2, width / 2, height / 2, height / -2, 1, 2000);
+    let camera = new THREE.OrthographicCamera(width / -2, width / 2, height / 2, height / -2, -2000, 2000);
     let cubeGeometry = new THREE.BoxGeometry(cubeSize, cubeSize, cubeSize);
 
     (function init() {
+        let state = store.getState().background;
+
         // Add renderer to element
         renderer.setSize(width, height);
         element.appendChild(renderer.domElement);
@@ -38,7 +42,7 @@ function createBackground(element, {cubeSize=50, minScale=1, maxScale=5, scaleSp
                 cube.position.set(xPos, 0, zPos);
 
                 // Scale it randomly
-                cube.scale.setY(Math.max(minScale, Math.random(maxScale) * maxScale));
+                cube.scale.setY(Math.max(state.minScale, Math.random(state.maxScale) * state.maxScale));
 
                 // Add scale direction for the animation
                 cube.scaleDirection = Math.random() > 0.5 ? 1 : -1;
@@ -65,17 +69,22 @@ function createBackground(element, {cubeSize=50, minScale=1, maxScale=5, scaleSp
     };
 
     function render(tFrame) {
+        let state = store.getState().background;
+
         // Get next frame as early as possible
         window.requestAnimationFrame(render);
 
         // Re-scale the cubes
         scene.children.forEach(function scaleCube(cube) {
             // If they're at the extremity, reverse
-            if (cube.scale.y < minScale || cube.scale.y > maxScale) {
+            if (cube.scale.y < state.minScale || cube.scale.y > state.maxScale) {
                 cube.scaleDirection *= -1;
             }
 
-            cube.scale.setY(cube.scale.y + cube.scaleDirection * (scaleSpeed * cube.scaleSpeed));
+            let speed = (store.getState().background.speed / 10) * cube.scaleSpeed;
+            let delta = cube.scaleDirection * speed;
+
+            cube.scale.setY(cube.scale.y + delta);
         });
 
         // Render all the objects

@@ -3,7 +3,7 @@
 const events = require('events');
 const equal = require('assert-helpers').equal;
 const joe = require('joe');
-const domain = require('./index');
+const domain = require('../domain-browser@1.1.7');
 joe.describe('domain-browser', function(describe, it) {
   it('should work on throws', function(done) {
     const d = domain.create();

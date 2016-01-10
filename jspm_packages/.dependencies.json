@@ -192,5 +192,17 @@
   "npm:font-awesome@4.5.0": {
     "css": "jspm:css@0.1"
   },
-  "npm:compass-mixins@0.12.7": {}
+  "npm:compass-mixins@0.12.7": {},
+  "npm:react-redux@4.0.6": {
+    "hoist-non-react-statics": "npm:hoist-non-react-statics@^1.0.3",
+    "invariant": "npm:invariant@^2.0.0",
+    "react": "npm:react@^0.14.0",
+    "redux": "npm:redux@^3.0.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:hoist-non-react-statics@1.0.3": {},
+  "npm:invariant@2.2.0": {
+    "loose-envify": "npm:loose-envify@^1.0.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  }
 }

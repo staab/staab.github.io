@@ -2,6 +2,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
 import {Dial} from './features';
+import {store} from '../state';
 
 let BoxContainer = React.createClass({
     displayName: "BoxContainer",
@@ -75,16 +76,72 @@ let Contact = React.createClass({
 
 let BackgroundSpeed = React.createClass({
     displayName: "BackgroundSpeed",
-    render() { return <Box><Dial>Speed</Dial></Box>; }
+    _setBgSpeed(degrees) {
+        // Convert degrees to fraction
+        store.dispatch({type: 'setBgSpeed', value: degrees / 360});
+    },
+    render() {
+        // Convert fraction to degrees
+        let degrees = store.getState().background.speed * 360;
+
+        return <Box>
+            <Dial onChange={this._setBgSpeed} degrees={degrees}>
+                Speed
+            </Dial>
+        </Box>;
+    }
+});
+
+let BackgroundMaxScale = React.createClass({
+    displayName: "BackgroundMaxScale",
+    _setBgMaxScale(degrees) {
+        // Convert degrees to fraction
+        store.dispatch({type: 'setBgMaxScale', value: degrees / 36});
+    },
+    componentDidMount() {
+        store.subscribe(this.forceUpdate.bind(this));
+    },
+    render() {
+        // Convert fraction to degrees
+        let degrees = store.getState().background.maxScale * 36;
+
+        return <Box>
+            <Dial onChange={this._setBgMaxScale} degrees={degrees}>
+                Max Size
+            </Dial>
+        </Box>;
+    }
+});
+
+let BackgroundMinScale = React.createClass({
+    displayName: "BackgroundMinScale",
+    _setBgMinScale(degrees) {
+        // Convert degrees to fraction
+        store.dispatch({type: 'setBgMinScale', value: degrees / 36});
+        this.forceUpdate();
+    },
+    componentDidMount() {
+        store.subscribe(this.forceUpdate.bind(this));
+    },
+    render() {
+        // Convert fraction to degrees
+        let degrees = store.getState().background.minScale * 36;
+
+        return <Box>
+            <Dial onChange={this._setBgMinScale} degrees={degrees}>
+                Min Size
+            </Dial>
+        </Box>;
+    }
 });
 
 let boxes = [
     Name,
     BackgroundSpeed,
     Box,
-    Box,
+    BackgroundMaxScale,
     Contact,
-    Box,
+    BackgroundMinScale,
     Box,
     Box,
     Box,

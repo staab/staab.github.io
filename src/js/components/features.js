@@ -3,9 +3,12 @@ import * as ReactDOM from 'react-dom';
 
 let Dial = React.createClass({
     displayName: "Dial",
-    _getDegrees() {
+    _normalizeDegrees(degrees) {
         // Normalize to a positive value between 0 and 360
-        return (360 + (this.props.degrees || this.state.degrees)) % 360;
+        return (360 + degrees) % 360;
+    },
+    _getDegrees() {
+        return this._normalizeDegrees(this.props.degrees || this.state.degrees);
     },
     _getRotation(factor=1) {
         // 45 gets the arrow to the top.
@@ -23,13 +26,19 @@ let Dial = React.createClass({
             return;
         }
 
-        let element = ReactDOM.findDOMNode(this).getElementsByClassName('dial__face')[0];
-        let elRect = element.getBoundingClientRect();
+        let dialRect = this.refs.dialFace.getBoundingClientRect();
         let mousePos = [evt.clientX, evt.clientY];
-        let elPos = [elRect.left + elRect.width / 2, elRect.top + elRect.height / 2];
-        let radians = Math.atan2(elPos[1] - mousePos[1], elPos[0] - mousePos[0]);
+        let dialPos = [dialRect.left + dialRect.width / 2, dialRect.top + dialRect.height / 2];
+        let radians = Math.atan2(dialPos[1] - mousePos[1], dialPos[0] - mousePos[0]);
+        let degrees = radians * (180 / Math.PI) - 90;
 
-        this.setState({degrees: radians * (180 / Math.PI) - 90});
+        // Save it internally
+        this.setState({degrees: degrees});
+
+        // Notify parent
+        if (this.props.onChange) {
+            this.props.onChange(this._normalizeDegrees(degrees));
+        }
     },
     _onMouseUp(evt) {
         if (!this.state.mouseDragging) {
@@ -55,7 +64,8 @@ let Dial = React.createClass({
             <div className="dial__chamfer">
                 <div className="dial__face"
                     style={{transform: this._getRotation()}}
-                    onMouseDown={this._onMouseDown}>
+                    onMouseDown={this._onMouseDown}
+                    ref="dialFace">
                     <div className="dial__arrow"></div>
                     <div className="dial__inner"></div>
                 </div>

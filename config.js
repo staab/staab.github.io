@@ -25,6 +25,7 @@ System.config({
     "react": "npm:react@0.14.6",
     "react-dom": "npm:react-dom@0.14.6",
     "react-pure": "npm:react-pure@0.3.1",
+    "react-redux": "npm:react-redux@4.0.6",
     "redux": "npm:redux@3.0.5",
     "reflex-grid": "npm:reflex-grid@1.0.8",
     "rx": "npm:rx@4.0.7",
@@ -112,6 +113,10 @@ System.config({
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
+    "npm:invariant@2.2.0": {
+      "loose-envify": "npm:loose-envify@1.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:jstransform@10.1.0": {
       "base62": "npm:base62@0.1.1",
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
@@ -149,6 +154,13 @@ System.config({
       "babel-runtime": "npm:babel-runtime@5.8.34",
       "classnames": "npm:classnames@2.2.3",
       "react": "npm:react@0.13.3"
+    },
+    "npm:react-redux@4.0.6": {
+      "hoist-non-react-statics": "npm:hoist-non-react-statics@1.0.3",
+      "invariant": "npm:invariant@2.2.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "react": "npm:react@0.14.6",
+      "redux": "npm:redux@3.0.5"
     },
     "npm:react@0.13.3": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
