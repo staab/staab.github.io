@@ -63,7 +63,7 @@ let Contact = React.createClass({
         return (
             <Box>
                 <div className="align-rows align-cols full-height">
-                    <i>work with me here</i>
+                    <i>Give me a whistle!</i>
                     <div>
                         <div className="grid">
                             <a className="grid__col-xs-4 text-center"
@@ -80,6 +80,19 @@ let Contact = React.createClass({
                             </a>
                         </div>
                     </div>
+                </div>
+            </Box>
+        );
+    }
+});
+
+let Instructions = React.createClass({
+    displayName: 'Instructions',
+    render() {
+        return (
+            <Box>
+                <div className="align-rows align-cols full-height">
+                    <i>Tweak the dials! Have some fun.</i>
                 </div>
             </Box>
         );
@@ -134,7 +147,7 @@ let BackgroundMinScale = connectBgProp('degrees', 'minScale', 36)(React.createCl
 let boxes = [
     Name,
     BackgroundSpeed,
-    Box,
+    Instructions,
     BackgroundMaxScale,
     Contact,
     BackgroundMinScale,

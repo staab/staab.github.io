@@ -46,7 +46,7 @@ function createBackground(element, cubeSize=50) {
 
                 // Add scale direction for the animation
                 cube.scaleDirection = Math.random() > 0.5 ? 1 : -1;
-                cube.scaleSpeed = Math.random();
+                cube.scaleSpeed = Math.random() * 0.9 + 0.1;
 
                 // Add it to the scene
                 scene.add(cube);

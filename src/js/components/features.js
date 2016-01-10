@@ -15,9 +15,6 @@ let Dial = React.createClass({
         return 'rotate(' + (factor * (this._getDegrees() + 45)) + 'deg)'
     },
     _onMouseDown(evt) {
-        // Don't let them highlight text
-        evt.preventDefault();
-
         // We are now moving
         this.setState({mouseDragging: true});
     },
@@ -60,11 +57,10 @@ let Dial = React.createClass({
         window.removeEventListener("mousemove", this._onMouseMove);
     },
     render() {
-        return <div className="dial">
+        return <div className="dial" onMouseDown={this._onMouseDown}>
             <div className="dial__chamfer">
                 <div className="dial__face"
                     style={{transform: this._getRotation()}}
-                    onMouseDown={this._onMouseDown}
                     ref="dialFace">
                     <div className="dial__arrow"></div>
                     <div className="dial__inner"></div>

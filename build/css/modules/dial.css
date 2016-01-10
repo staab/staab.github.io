@@ -71,6 +71,12 @@
     -o-border-radius: 0.75em;
     border-radius: 0.75em; }
   .dial .dial__text {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: move;
     text-align: center;
     position: relative;
     top: -5.5em;
