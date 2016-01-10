@@ -12069,14 +12069,6 @@ System.register('src/js/components/boxes.js', ['npm:react@0.14.6', 'npm:react-do
                                     React.createElement(
                                         'a',
                                         { className: 'grid__col-xs-3 text-center',
-                                            href: 'mailto:shtaab@gmail.com',
-                                            title: 'Chuck an email in my direction',
-                                            target: '_blank' },
-                                        React.createElement('i', { className: 'fa fa-envelope' })
-                                    ),
-                                    React.createElement(
-                                        'a',
-                                        { className: 'grid__col-xs-3 text-center',
                                             href: 'https://twitter.com/SanStaab',
                                             title: 'Tweetify me',
                                             target: '_blank' },

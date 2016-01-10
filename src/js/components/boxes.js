@@ -73,12 +73,6 @@ let Contact = React.createClass({
                                 <i className="fa fa-github"></i>
                             </a>
                             <a className="grid__col-xs-3 text-center"
-                                href="mailto:shtaab@gmail.com"
-                                title="Chuck an email in my direction"
-                                target="_blank">
-                                <i className="fa fa-envelope"></i>
-                            </a>
-                            <a className="grid__col-xs-3 text-center"
                                 href="https://twitter.com/SanStaab"
                                 title="Tweetify me"
                                 target="_blank">
