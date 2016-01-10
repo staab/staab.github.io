@@ -63,20 +63,32 @@ let Contact = React.createClass({
         return (
             <Box>
                 <div className="align-rows align-cols full-height">
-                    <i>Give me a whistle!</i>
+                    <i>Work with me here.</i>
                     <div>
                         <div className="grid">
-                            <a className="grid__col-xs-4 text-center"
-                                href="https://github.com/staab">
+                            <a className="grid__col-xs-3 text-center"
+                                href="https://github.com/staab"
+                                title="Check out my OSS contributions"
+                                target="_blank">
                                 <i className="fa fa-github"></i>
                             </a>
-                            <a className="grid__col-xs-4 text-center"
-                                href="mailto:shtaab@gmail.com">
+                            <a className="grid__col-xs-3 text-center"
+                                href="mailto:shtaab@gmail.com"
+                                title="Chuck an email in my direction"
+                                target="_blank">
                                 <i className="fa fa-envelope"></i>
                             </a>
-                            <a className="grid__col-xs-4 text-center"
-                                href="https://twitter.com/SanStaab">
+                            <a className="grid__col-xs-3 text-center"
+                                href="https://twitter.com/SanStaab"
+                                title="Tweetify me"
+                                target="_blank">
                                 <i className="fa fa-twitter"></i>
+                            </a>
+                            <a className="grid__col-xs-3 text-center"
+                                href="/src/img/resume_staab_2016_01.pdf"
+                                title="Skim my resume"
+                                target="_blank">
+                                <i className="fa fa-file"></i>
                             </a>
                         </div>
                     </div>
@@ -144,19 +156,12 @@ let BackgroundMinScale = connectBgProp('degrees', 'minScale', 36)(React.createCl
     }
 }));
 
-let boxes = [
+export {
+    BoxContainer,
     Name,
-    BackgroundSpeed,
     Instructions,
-    BackgroundMaxScale,
     Contact,
-    BackgroundMinScale,
-    Box,
-    Box,
-    Box,
-    Box,
-    Box,
-    Box
-];
-
-export {BoxContainer, boxes};
+    BackgroundSpeed,
+    BackgroundMaxScale,
+    BackgroundMinScale
+};

@@ -16,6 +16,7 @@ a {
     color: $primary;
     text-decoration: none;
     transition: color 0.3s;
+    text-shadow: none;
 
     &:hover {
         color: $primary-highlight;

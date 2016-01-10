@@ -7,4 +7,5 @@
   z-index: z("background"); }
 
 .l-content {
-  position: absolute; }
+  position: absolute;
+  overflow: hidden; }
