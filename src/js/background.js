@@ -77,8 +77,11 @@ function createBackground(element, cubeSize=50) {
         // Re-scale the cubes
         scene.children.forEach(function scaleCube(cube) {
             // If they're at the extremity, reverse
-            if (cube.scale.y < state.minScale || cube.scale.y > state.maxScale) {
-                cube.scaleDirection *= -1;
+            // Don't just *= -1 since they may be way outside the bounds
+            if (cube.scale.y < state.minScale) {
+                cube.scaleDirection = 1;
+            } else if(cube.scale.y > state.maxScale) {
+                cube.scaleDirection = -1;
             }
 
             let speed = (store.getState().background.speed / 10) * cube.scaleSpeed;

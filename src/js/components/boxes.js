@@ -1,8 +1,20 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import {connect} from 'react-redux';
 
 import {Dial} from './features';
-import {store} from '../state';
+
+function connectBgProp(propName, stateName, factor) {
+    function stateToProps(state) {
+        let ret = {};
+
+        ret[propName] = state.background[stateName] * factor;
+
+        return ret;
+    }
+
+    return connect(stateToProps);
+}
 
 let BoxContainer = React.createClass({
     displayName: "BoxContainer",
@@ -74,66 +86,50 @@ let Contact = React.createClass({
     }
 });
 
-let BackgroundSpeed = React.createClass({
+let BackgroundSpeed = connectBgProp('degrees', 'speed', 360)(React.createClass({
     displayName: "BackgroundSpeed",
     _setBgSpeed(degrees) {
         // Convert degrees to fraction
-        store.dispatch({type: 'setBgSpeed', value: degrees / 360});
+        this.props.store.dispatch({type: 'setBgSpeed', value: degrees / 360});
     },
     render() {
-        // Convert fraction to degrees
-        let degrees = store.getState().background.speed * 360;
-
         return <Box>
-            <Dial onChange={this._setBgSpeed} degrees={degrees}>
+            <Dial onChange={this._setBgSpeed} degrees={this.props.degrees}>
                 Speed
             </Dial>
         </Box>;
     }
-});
+}));
 
-let BackgroundMaxScale = React.createClass({
+let BackgroundMaxScale = connectBgProp('degrees', 'maxScale', 36)(React.createClass({
     displayName: "BackgroundMaxScale",
-    _setBgMaxScale(degrees) {
+    _setDegrees(degrees) {
         // Convert degrees to fraction
-        store.dispatch({type: 'setBgMaxScale', value: degrees / 36});
-    },
-    componentDidMount() {
-        store.subscribe(this.forceUpdate.bind(this));
+        this.props.store.dispatch({type: 'setBgMaxScale', value: degrees / 36});
     },
     render() {
-        // Convert fraction to degrees
-        let degrees = store.getState().background.maxScale * 36;
-
         return <Box>
-            <Dial onChange={this._setBgMaxScale} degrees={degrees}>
+            <Dial onChange={this._setDegrees} degrees={this.props.degrees}>
                 Max Size
             </Dial>
         </Box>;
     }
-});
+}));
 
-let BackgroundMinScale = React.createClass({
+let BackgroundMinScale = connectBgProp('degrees', 'minScale', 36)(React.createClass({
     displayName: "BackgroundMinScale",
-    _setBgMinScale(degrees) {
+    _setDegrees(degrees) {
         // Convert degrees to fraction
-        store.dispatch({type: 'setBgMinScale', value: degrees / 36});
-        this.forceUpdate();
-    },
-    componentDidMount() {
-        store.subscribe(this.forceUpdate.bind(this));
+        this.props.store.dispatch({type: 'setBgMinScale', value: degrees / 36});
     },
     render() {
-        // Convert fraction to degrees
-        let degrees = store.getState().background.minScale * 36;
-
         return <Box>
-            <Dial onChange={this._setBgMinScale} degrees={degrees}>
+            <Dial onChange={this._setDegrees} degrees={this.props.degrees}>
                 Min Size
             </Dial>
         </Box>;
     }
-});
+}));
 
 let boxes = [
     Name,
