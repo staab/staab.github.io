@@ -17,6 +17,8 @@ let Dial = React.createClass({
     _onMouseDown(evt) {
         // We are now moving
         this.setState({mouseDragging: true});
+        evt.preventDefault();
+        evt.stopImmediatePropagation();
     },
     _onMouseMove(evt) {
         if (!this.state.mouseDragging) {
@@ -36,6 +38,9 @@ let Dial = React.createClass({
         if (this.props.onChange) {
             this.props.onChange(this._normalizeDegrees(degrees));
         }
+
+        evt.preventDefault();
+        evt.stopImmediatePropagation();
     },
     _onMouseUp(evt) {
         if (!this.state.mouseDragging) {
@@ -50,14 +55,20 @@ let Dial = React.createClass({
     },
     componentDidMount() {
         window.addEventListener("mouseup", this._onMouseUp);
+        window.addEventListener("touchend", this._onMouseUp);
         window.addEventListener("mousemove", this._onMouseMove);
+        window.addEventListener("touchmove", this._onMouseMove);
     },
     componentWillUnmount() {
         window.removeEventListener("mouseup", this._onMouseUp);
         window.removeEventListener("mousemove", this._onMouseMove);
+        window.removeEventListener("mousemove", this._onMouseMove);
+        window.removeEventListener("touchmove", this._onMouseMove);
     },
     render() {
-        return <div className="dial" onMouseDown={this._onMouseDown}>
+        return <div className="dial"
+            onMouseDown={this._onMouseDown}
+            onTouchStart={this._onMouseDown}>
             <div className="dial__chamfer">
                 <div className="dial__face"
                     style={{transform: this._getRotation()}}
