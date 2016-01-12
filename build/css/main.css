@@ -123,6 +123,12 @@
   align-items: center;
   flex-wrap: wrap; }
 
+.align-cols {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap; }
+
 .text-center {
   text-align: center; }
 

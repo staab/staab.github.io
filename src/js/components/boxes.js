@@ -43,7 +43,7 @@ let Name = React.createClass({
             <Box>
                 <h1>Heya!</h1>
                 <div className="grid">
-                    <div className="grid__col-xs-4">
+                    <div className="grid__col-xs-4 align-cols">
                         <img src="/src/img/headshot.png" width="80px;" className="circle"/>
                     </div>
                     <i className="grid__col-xs-8">
@@ -62,7 +62,7 @@ let Contact = React.createClass({
     render() {
         return (
             <Box>
-                <div className="align-rows full-height">
+                <div className="align-rows align-cols full-height">
                     <i>Work with me here.</i>
                     <div>
                         <div className="grid">
